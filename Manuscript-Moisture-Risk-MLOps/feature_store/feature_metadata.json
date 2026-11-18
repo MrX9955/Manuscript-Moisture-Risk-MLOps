@@ -1,0 +1,18 @@
+{
+    "project": "Manuscript Moisture Risk Prediction",
+    "feature_store_version": "1.0",
+    "created_at": "2026-11-18T09:19:35.030041",
+    "dataset_versions": [
+        "V1",
+        "V2"
+    ],
+    "features": {
+        "Dew_Point": "Calculated using room temperature and relative humidity",
+        "condensation_risk_index": "Positive difference between dew point and wall surface temperature",
+        "ventilation_effectiveness_ratio": "Ventilation duration divided by 60 minutes"
+    },
+    "feature_files": [
+        "features_v1.csv",
+        "features_v2.csv"
+    ]
+}

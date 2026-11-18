@@ -1,0 +1,21 @@
+{
+    "model_name": "ManuscriptMoistureRiskModel",
+    "selected_algorithm": "Decision Tree",
+    "feature_columns": [
+        "Relative_Humidity",
+        "Room_Temperature",
+        "Wall_Surface_Temperature",
+        "Door_Openings_Per_Hour",
+        "Ventilation_Duration",
+        "Dehumidifier_Operating_Hours",
+        "Room_Occupancy",
+        "Dew_Point",
+        "condensation_risk_index",
+        "ventilation_effectiveness_ratio"
+    ],
+    "target_classes": [
+        "Moisture Risk",
+        "Storage Conditions Acceptable"
+    ],
+    "positive_class": "Moisture Risk"
+}
