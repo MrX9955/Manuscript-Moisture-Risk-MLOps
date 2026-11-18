@@ -1,0 +1,10 @@
+{
+    "dataset_name": "Manuscript Moisture Risk Dataset",
+    "version": "V2",
+    "description": "Monsoon conditions with increased humidity and reduced ventilation",
+    "records": 300,
+    "columns": 8,
+    "file_name": "manuscript_moisture_v2.csv",
+    "sha256": "9dd0d3a3fbb99d1158f25eb0eb035877d52e3d4539a8735c6fd2be4f07556a96",
+    "created_at": "2026-11-18T09:01:50.514758+00:00"
+}
